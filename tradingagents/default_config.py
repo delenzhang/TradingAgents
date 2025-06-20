@@ -17,5 +17,5 @@ DEFAULT_CONFIG = {
     # Tool settings
     "online_tools": True,
     # Language settings
-    "language": "zh",  # 支持 'zh' 或 'en'
+    "language": "en",  # 支持 'zh' 或 'en'
 }

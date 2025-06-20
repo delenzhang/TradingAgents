@@ -26,7 +26,7 @@ LANG = {
     "trader_investment_plan": "交易员投资计划",
     "final_trade_decision": "最终交易决策",
     "team": "团队",
-    "agent": "代理人",
+    "agent": "代理",
     "status": "状态",
     "progress": "进度",
     "messages_tools": "消息与工具",
