@@ -239,9 +239,9 @@ def update_display(layout, spinner_text=None):
             status_cell = spinner
         else:
             status_color = {
-                lang["pending"]: "yellow",
-                lang["completed"]: "green",
-                lang["error"]: "red",
+                "pending": "yellow",
+                "completed": "green",
+                "error": "red",
             }.get(status, "white")
             status_cell = f"[{status_color}]{status}[/{status_color}]"
         progress_table.add_row(team, first_agent, status_cell)
@@ -256,9 +256,9 @@ def update_display(layout, spinner_text=None):
                 status_cell = spinner
             else:
                 status_color = {
-                    lang["pending"]: "yellow",
-                    lang["completed"]: "green",
-                    lang["error"]: "red",
+                    "pending": "yellow",
+                    "completed": "green",
+                    "error": "red",
                 }.get(status, "white")
                 status_cell = f"[{status_color}]{status}[/{status_color}]"
             progress_table.add_row("", agent, status_cell)
